@@ -1,0 +1,168 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/CART315_Ex1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51684
+Successfully changed project path to: /Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/CART315_Ex1
+/Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/CART315_Ex1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/CART315_Ex1/Assets
+GfxDevice: creating device client; threaded=0
+2021-01-26 16:51:46.408 Unity[1384:184684] Color LCD preferred device: AMD Radeon R9 M370X (high power)
+2021-01-26 16:51:46.408 Unity[1384:184684] Metal devices available: 2
+2021-01-26 16:51:46.408 Unity[1384:184684] 0: AMD Radeon R9 M370X (high power)
+2021-01-26 16:51:46.408 Unity[1384:184684] 1: Intel Iris Pro Graphics (low power)
+2021-01-26 16:51:46.409 Unity[1384:184684] Using device AMD Radeon R9 M370X (high power)
+Initializing Metal device caps: AMD Radeon R9 M370X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000387 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 24.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.562 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.5 MB.
+System memory in use after: 108.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1556.
+Total: 2.512295 ms (FindLiveObjects: 0.227657 ms CreateObjectMapping: 0.056073 ms MarkObjects: 2.128945 ms  DeleteObjects: 0.098441 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/CharacterSunGlasses.mat
+  artifactKey: Guid(66871712c4dcd134098196797c9af0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/CharacterSunGlasses.mat using Guid(66871712c4dcd134098196797c9af0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b09f2807c6d0036584570c4b79eabd1') in 0.470478 seconds
+  Import took 0.473833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxYellow.mat
+  artifactKey: Guid(bb6602b36b869dc46b141f119a5c21dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxYellow.mat using Guid(bb6602b36b869dc46b141f119a5c21dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3508528cc13c24f25e43b8f5c2e7dc') in 0.314871 seconds
+  Import took 0.317032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxGreen.mat
+  artifactKey: Guid(6ed007dd7a52e6f4caedc483b91ad6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxGreen.mat using Guid(6ed007dd7a52e6f4caedc483b91ad6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd788954622b2b0cae55ee8518e339cc9') in 0.009335 seconds
+  Import took 0.010946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxOrange.mat
+  artifactKey: Guid(db9d40547e5513e429e10319b9185cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxOrange.mat using Guid(db9d40547e5513e429e10319b9185cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57ca852da0e2c6698dc28845f67c9a2') in 0.009364 seconds
+  Import took 0.011022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/CharacterBody.mat
+  artifactKey: Guid(be2612e45fc783a4ca9d5a753a7afaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/CharacterBody.mat using Guid(be2612e45fc783a4ca9d5a753a7afaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952f9ada2dee7c38e8169998bceb631e') in 0.010965 seconds
+  Import took 0.012871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxGray.mat
+  artifactKey: Guid(b836faefb5661ea45acd279653c7e205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxGray.mat using Guid(b836faefb5661ea45acd279653c7e205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf37d422ceab77d3bec2eae869cbca6d') in 0.018112 seconds
+  Import took 0.020197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxRed.mat
+  artifactKey: Guid(06ab0ffd089e0a84abd655692e52a4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxRed.mat using Guid(06ab0ffd089e0a84abd655692e52a4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01776808fdf52e7a9b546480972719c') in 0.014250 seconds
+  Import took 0.016254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxBlue.mat
+  artifactKey: Guid(de871d695c9ec9f4b8a6ea0c71119a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxBlue.mat using Guid(de871d695c9ec9f4b8a6ea0c71119a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d3c3ee14fc89ab9a83c097a3180aad') in 0.009350 seconds
+  Import took 0.011252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxLightBlue.mat
+  artifactKey: Guid(0a492a3b0d2fc6b4597c8e82b7faf268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxLightBlue.mat using Guid(0a492a3b0d2fc6b4597c8e82b7faf268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba3c613ecfc8adcd21fdce2316947a0') in 0.009784 seconds
+  Import took 0.011854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxPurple.mat
+  artifactKey: Guid(05f7561c015e2d945ae62d990744c0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Materials/GridBoxPurple.mat using Guid(05f7561c015e2d945ae62d990744c0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc01397fdb12ea599f832b8a2dc7e42') in 0.010738 seconds
+  Import took 0.012709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.348268 seconds.
+  path: Assets/TileableBricksWall/Materials/Bricks_01_mat.mat
+  artifactKey: Guid(3abf473d50106f44c9611c2c76fd9a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileableBricksWall/Materials/Bricks_01_mat.mat using Guid(3abf473d50106f44c9611c2c76fd9a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b515583f8d725879c4eb9618d1a057') in 0.383352 seconds
+  Import took 0.385706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/TileableBricksWall/Materials/Bricks_01_mat2.mat
+  artifactKey: Guid(333a08b54ec5eec4f84f74d910ad751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileableBricksWall/Materials/Bricks_01_mat2.mat using Guid(333a08b54ec5eec4f84f74d910ad751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3049e48192bf129c83312ce724de5a') in 0.279297 seconds
+  Import took 0.281336 seconds .
+
