@@ -2,18 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ballcollision : MonoBehaviour
+public class pickup : MonoBehaviour
 {
-    public GameObject player;
+    public string tag;
 
     private void OnCollisionEnter(Collision collision)
     {
 
-        if (collision.collider.gameObject == player)
+        if (collision.collider.gameObject.tag == "pickup")
         {
-            Debug.Log("collision detected");
-            Vector3 force = new Vector3(0, 500, 0);
-            this.GetComponent<Rigidbody>().AddForce(force); // to interact with the physics of the component (Rigidbody gives it its physics)
+            Destroy(collision.collider.gameObject);
         }
     }
 
