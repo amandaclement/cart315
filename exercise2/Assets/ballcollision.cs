@@ -8,7 +8,13 @@ public class ballcollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("collision detected");
+
+        if (collision.collider.gameObject == player)
+        {
+            Debug.Log("collision detected");
+            Vector3 force = new Vector3(0, 500, 0);
+            this.GetComponent<Rigidbody>().AddForce(force); // to interact with the physics of the component (Rigidbody gives it its physics)
+        }
     }
 
     // Start is called before the first frame update
