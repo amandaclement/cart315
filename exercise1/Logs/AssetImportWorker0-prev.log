@@ -8,46 +8,46 @@ Using pre-set license
 -name
 AssetImportWorker0
 -projectPath
-/Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/CART315_Ex1
+/Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/cart315/exercise1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49880
-Successfully changed project path to: /Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/CART315_Ex1
-/Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/CART315_Ex1
+50236
+Successfully changed project path to: /Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/cart315/exercise1
+/Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/cart315/exercise1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 27.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/CART315_Ex1/Assets
+[Subsystems] Discovering subsystems at path /Users/AmandaClement/Desktop/CONCORDIA/CART361/CART361_Class_01/Blockout_assignment/Unity/cart315/exercise1/Assets
 GfxDevice: creating device client; threaded=0
-2021-01-27 09:01:15.515 Unity[1024:38648] Color LCD preferred device: AMD Radeon R9 M370X (high power)
-2021-01-27 09:01:15.515 Unity[1024:38648] Metal devices available: 2
-2021-01-27 09:01:15.515 Unity[1024:38648] 0: AMD Radeon R9 M370X (high power)
-2021-01-27 09:01:15.515 Unity[1024:38648] 1: Intel Iris Pro Graphics (low power)
-2021-01-27 09:01:15.516 Unity[1024:38648] Using device AMD Radeon R9 M370X (high power)
+2021-01-27 09:47:28.257 Unity[1599:76669] Color LCD preferred device: AMD Radeon R9 M370X (high power)
+2021-01-27 09:47:28.257 Unity[1599:76669] Metal devices available: 2
+2021-01-27 09:47:28.257 Unity[1599:76669] 0: AMD Radeon R9 M370X (high power)
+2021-01-27 09:47:28.257 Unity[1599:76669] 1: Intel Iris Pro Graphics (low power)
+2021-01-27 09:47:28.258 Unity[1599:76669] Using device AMD Radeon R9 M370X (high power)
 Initializing Metal device caps: AMD Radeon R9 M370X
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56599
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000369 seconds.
+Registered in 0.000419 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 27.16 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 28.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.674 seconds
+- Completed reload, in  1.722 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000344 seconds.
+Registered in 0.000372 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
@@ -56,7 +56,7 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.107 seconds
+- Completed reload, in  1.098 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -65,95 +65,17 @@ Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 112.9 MB.
+System memory in use before: 113.1 MB.
+System memory in use after: 113.2 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1562.
-Total: 3.208656 ms (FindLiveObjects: 0.356568 ms CreateObjectMapping: 0.100890 ms MarkObjects: 2.669922 ms  DeleteObjects: 0.079942 ms)
+Total: 2.221221 ms (FindLiveObjects: 0.210992 ms CreateObjectMapping: 0.045050 ms MarkObjects: 1.862211 ms  DeleteObjects: 0.101633 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Prefabs/MyCharacter.prefab
-  artifactKey: Guid(a84e11ee423eace4aac65d32b52ee82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Prefabs/MyCharacter.prefab using Guid(a84e11ee423eace4aac65d32b52ee82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df5b9451d7ce2e3d53e36296911c899') in 0.474218 seconds
-  Import took 0.476948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.978711 seconds.
-  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Prefabs/MyCharacter.prefab
-  artifactKey: Guid(a84e11ee423eace4aac65d32b52ee82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Prefabs/MyCharacter.prefab using Guid(a84e11ee423eace4aac65d32b52ee82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4d9042c75b7516f3dc231115054bfb') in 0.011067 seconds
-  Import took 0.013659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.361290 seconds.
-  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Prefabs/MyCharacter.prefab
-  artifactKey: Guid(a84e11ee423eace4aac65d32b52ee82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Prefabs/MyCharacter.prefab using Guid(a84e11ee423eace4aac65d32b52ee82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9512e348c3bbd36f4df2e8591a2ad9a5') in 0.009337 seconds
-  Import took 0.011760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 126.151414 seconds.
-  path: Assets/Mente Bacata/Scivolo Character Controller/Demo/Prefabs/MyCharacter.prefab
-  artifactKey: Guid(a84e11ee423eace4aac65d32b52ee82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mente Bacata/Scivolo Character Controller/Demo/Prefabs/MyCharacter.prefab using Guid(a84e11ee423eace4aac65d32b52ee82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28afe30c90a7f017b0361e2084c3a5e4') in 0.010724 seconds
-  Import took 0.013103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 184.835603 seconds.
   path: Assets/Castle.prefab
   artifactKey: Guid(db7e4b4169f6545e299a60b87ca8e82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Castle.prefab using Guid(db7e4b4169f6545e299a60b87ca8e82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50334fe22b3dbc0f56edec97654abc87') in 0.022313 seconds
-  Import took 0.025416 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000466 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.985 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.4 MB.
-System memory in use after: 121.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1575.
-Total: 2.843764 ms (FindLiveObjects: 0.282750 ms CreateObjectMapping: 0.119668 ms MarkObjects: 2.367412 ms  DeleteObjects: 0.071851 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000305 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.002 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.8 MB.
-System memory in use after: 121.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1577.
-Total: 2.786091 ms (FindLiveObjects: 0.151960 ms CreateObjectMapping: 0.036738 ms MarkObjects: 2.534688 ms  DeleteObjects: 0.061213 ms)
+Start importing Assets/Castle.prefab using Guid(db7e4b4169f6545e299a60b87ca8e82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50334fe22b3dbc0f56edec97654abc87') in 0.293775 seconds
+  Import took 0.297115 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
