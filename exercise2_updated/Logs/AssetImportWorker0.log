@@ -1,0 +1,120 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/AmandaClement/Desktop/CONCORDIA/Unity/cart315/exercise2_updated
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51783
+Successfully changed project path to: /Users/AmandaClement/Desktop/CONCORDIA/Unity/cart315/exercise2_updated
+/Users/AmandaClement/Desktop/CONCORDIA/Unity/cart315/exercise2_updated
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/AmandaClement/Desktop/CONCORDIA/Unity/cart315/exercise2_updated/Assets
+GfxDevice: creating device client; threaded=0
+2021-02-03 10:49:11.614 Unity[4642:212109] Color LCD preferred device: AMD Radeon R9 M370X (high power)
+2021-02-03 10:49:11.615 Unity[4642:212109] Metal devices available: 2
+2021-02-03 10:49:11.615 Unity[4642:212109] 0: AMD Radeon R9 M370X (high power)
+2021-02-03 10:49:11.615 Unity[4642:212109] 1: Intel Iris Pro Graphics (low power)
+2021-02-03 10:49:11.618 Unity[4642:212109] Using device AMD Radeon R9 M370X (high power)
+Initializing Metal device caps: AMD Radeon R9 M370X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56642
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000400 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 32.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.702 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.290 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1486 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 3.654841 ms (FindLiveObjects: 0.395309 ms CreateObjectMapping: 0.132975 ms MarkObjects: 2.877718 ms  DeleteObjects: 0.247073 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(636d5902b190547188173627c08a1fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(636d5902b190547188173627c08a1fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cdd354187dd95752a49e654b721144') in 0.326801 seconds
+  Import took 0.330194 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at /Users/AmandaClement/Desktop/CONCORDIA/Unity/cart315/exercise2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at /Users/AmandaClement/Desktop/CONCORDIA/Unity/cart315/exercise2/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 2.473718 ms (FindLiveObjects: 0.221026 ms CreateObjectMapping: 0.056000 ms MarkObjects: 2.089756 ms  DeleteObjects: 0.105794 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 870.779134 seconds.
+  path: Assets/NewBehaviourScript1.cs
+  artifactKey: Guid(0a368aa3544f84c9d814a6c7db8137a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript1.cs using Guid(0a368aa3544f84c9d814a6c7db8137a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc90f11ef5cb072fbbecbfcb608045c') in 0.005519 seconds
+  Import took 0.008588 seconds .
+
