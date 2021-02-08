@@ -16,7 +16,7 @@ public class Orbit : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // making the planes rotate around the goal (final) platform
         transform.RotateAround(orbitter.transform.position, Vector3.up, speed * Time.deltaTime);   

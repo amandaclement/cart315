@@ -5,6 +5,8 @@ using UnityEngine;
 public class CameraTracking : MonoBehaviour
 {
     public GameObject player;
+    public float moveSpeed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -12,9 +14,20 @@ public class CameraTracking : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         this.GetComponent<Transform>().LookAt(player.transform);
 
+        // alpha 1 key to move camera up
+        if (Input.GetKey(KeyCode.Alpha1))
+        {
+            this.transform.position += Vector3.up * moveSpeed * Time.deltaTime;
+        }
+
+        // Q key to move camera down
+        if (Input.GetKey(KeyCode.Q))
+        {
+            this.transform.position += Vector3.down * moveSpeed * Time.deltaTime;
+        }
     }
 }
