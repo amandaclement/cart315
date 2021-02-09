@@ -6,17 +6,16 @@ using UnityEngine;
 public class pickup : MonoBehaviour
 {
     //public string pickuptag;
-    public string tag;
+    public string pickuptag;
 
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("initial collide");
         //if (collision.collider.gameObject.CompareTag(pickuptag))
-        if (collision.collider.gameObject.tag == "pickup")
+        if (collision.collider.gameObject.CompareTag(pickuptag))
         {
             Debug.Log("collision detected wih pickup");
             Destroy(collision.collider.gameObject);
-            Destroy(gameObject);
         }
     }
 
